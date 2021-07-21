@@ -41,7 +41,7 @@
                     <li><a href="{{url('admin/dashboard')}}"> <i class="bi bi-rainbow"></i> Dashboard</a></li>
                     <li><a href="{{url('admin/referrals')}}"><i class="bi bi-puzzle-fill"></i> Referrals</a></li>
                     <li><a href="{{url('admin/department')}}"><i class="bi bi-puzzle-fill"></i> Department</a></li>
-                    <li><a href="{{url('admin/tests")}}'><i class="bi bi-x-diamond-fill"></i> Tests</a></li>
+                    <li><a href="{{url('admin/tests')}}"><i class="bi bi-x-diamond-fill"></i> Tests</a></li>
                     <li><a href="{{url('admin/patients')}}"><i class="bi bi-person"></i> Patients</a></li>
                     <li><a href="{{url('admin/staff')}}"><i class="bi bi-person-fill"></i> Staff</a></li>
                     <li><a href="{{url('admin/search')}}"><i class="bi bi-search"></i> Search</a></li>
