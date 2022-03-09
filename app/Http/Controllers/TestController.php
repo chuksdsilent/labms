@@ -51,7 +51,7 @@ class TestController extends Controller
      */
     public function show(Tests $tests)
     {
-        $tests = Tests::latest()->get();
+      return  $tests = Tests::latest()->get();
         return view('admin.test')->with('tests', $tests);
     }
 

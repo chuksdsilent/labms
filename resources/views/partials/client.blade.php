@@ -43,7 +43,7 @@
                     {{-- <li><a href="{{url("staff/patient/search")}}">Search</a></li> --}}
                     <li><a href="{{url("staff/patient/create")}}"><i class="bi bi-person"></i> Create Patient
                             Test</a></li>
-                    <li><a href="{{url("staff/tests")}}"><i class="bi bi-x-diamond-fill"></i> Tests</a></li>
+                    <li><a href="{{url("staff/test/all")}}"><i class="bi bi-x-diamond-fill"></i> Tests</a></li>
                     <li><a href="{{url("staff/password/change")}}"><i class="bi bi-file-lock-fill"></i> Change
                             Password</a></li>
                     <li><a href="{{url("staff/debts")}}"><i class="bi bi-file-lock-fill"></i> Debts</a></li>
@@ -281,3 +281,4 @@
 </body>
 
 </html>
+

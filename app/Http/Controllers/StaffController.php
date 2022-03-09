@@ -75,7 +75,7 @@ class StaffController extends Controller
     }
     public function showTest($trx_id)
     {
-        return view("client.showTest")->with("tests", Medicals::where("trx_id", $trx_id)->get())->with("trx_id", $trx_id);;
+        return view("client.todaytests")->with("medical", Medicals::where("trx_id", $trx_id)->get())->with("trx_id", $trx_id);;
     }
     public function allTest()
     {
@@ -114,7 +114,7 @@ class StaffController extends Controller
     }
     public function tests()
     {
-        return view('client.test')->with('medical', Medicals::orderBy('created_at', 'DESC')->groupBy("trx_id")->get());
+        return view('client.todaytests')->with('medical', Medicals::orderBy('created_at', 'DESC')->groupBy("trx_id")->get());
     }
     public function checkCredentials()
     {
